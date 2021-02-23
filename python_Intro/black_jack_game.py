@@ -39,5 +39,11 @@ class BlackJack:
     '''
 
 if __name__ == "__main__":
-    game = BlackJack()
-    game.play()
+    #game = BlackJack() uncomment
+    #game.play() uncomment
+    # delete these lines below when you start, it is just to show you how to interact with the Deck class 
+    deck = Deck()
+    deck.create_deck()
+    deck.show_deck()
+    deck.shuffle_deck()
+    deck.show_deck()

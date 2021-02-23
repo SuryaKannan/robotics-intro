@@ -7,3 +7,4 @@ Blackjack Hand Class
 '''
 class Hand:
     def __init__(self):
+        pass # delete this pass and fill in the rest of the class with your own code 
